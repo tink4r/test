@@ -1,0 +1,40 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/linsanity/OneDrive/OpenMesh
+-- The C compiler identification is AppleClang 12.0.5.12050022
+-- The CXX compiler identification is AppleClang 12.0.5.12050022
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) at cmake-library/VCI/VCICompiler.cmake:96 (set):
+  implicitly converting 'STRINGLIST' to 'STRING' type.
+Call Stack (most recent call first):
+  cmake-library/VCI/VCICommon.cmake:103 (include)
+  CMakeLists.txt:44 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenGL: /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework   
+-- No QT path specified (or does not exist) - searching in common locations...
+-- Could NOT find Qt5 (missing: Qt5_DIR)
+QT not found.
+QT not found! Skipping some apps.
+-- Found Doxygen: /usr/local/bin/doxygen (found version "1.9.1") found components: doxygen dot 
+-- Found LATEX: /Library/TeX/texbin/latex   
+
+[40;37m************************************************************[0m
+[40;37m* [1;31mVCI [0;40;34mBuildsystem[0m[40;37m                                          *[0m
+[40;37m*                                                          *[0m
+[40;37m* Package : [32mOpenMesh                                 [37m      *[0m
+[40;37m* Version : [32m9.1.0                                    [37m      *[0m
+[40;37m* Type    : [32mDebug [37m                                         *[0m
+[40;37m************************************************************[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/linsanity/OneDrive/OpenMesh/cmake-build-debug

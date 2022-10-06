@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenMesh"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-library\;CMake Files\cmake-library\VCI\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\OpenMesh\;CMake Files\src\OpenMesh\Core\;CMake Files\src\OpenMesh\Tools\;CMake Files\src\OpenMesh\Apps\;CMake Files\src\OpenMesh\Apps\Dualizer\;CMake Files\src\OpenMesh\Apps\Decimating\;CMake Files\src\OpenMesh\Apps\Decimating\commandlineDecimater\;CMake Files\src\OpenMesh\Apps\Smoothing\;CMake Files\src\OpenMesh\Apps\Subdivider\;CMake Files\src\OpenMesh\Apps\Subdivider\commandlineSubdivider\;CMake Files\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\;CMake Files\src\OpenMesh\Apps\mconvert\;CMake Files\src\OpenMesh\Apps\VDProgMesh\;CMake Files\src\OpenMesh\Apps\VDProgMesh\mkbalancedpm\;CMake Files\src\OpenMesh\Apps\VDProgMesh\Analyzer\;CMake Files\src\Unittests\;CMake Files\Doc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PACKAGE_SOURCE">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 PACKAGE_SOURCE"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fixbundle">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 fixbundle"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenMeshCoreStatic">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/libOpenMeshCored.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 OpenMeshCoreStatic"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenMeshCoreStatic/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/libOpenMeshCored.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 OpenMeshCoreStatic/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenMeshCore">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/libOpenMeshCored.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 OpenMeshCore"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenMeshCore/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/libOpenMeshCored.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 OpenMeshCore/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenMeshTools">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/libOpenMeshToolsd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 OpenMeshTools"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenMeshTools/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/libOpenMeshToolsd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 OpenMeshTools/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenMeshToolsStatic">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/libOpenMeshToolsd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 OpenMeshToolsStatic"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenMeshToolsStatic/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/libOpenMeshToolsd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 OpenMeshToolsStatic/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dualizer">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Dualizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Makefile&quot;  VERBOSE=1 Dualizer"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dualizer/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Dualizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Makefile&quot;  VERBOSE=1 Dualizer/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Dualizer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commandlineDecimater">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/commandlineDecimater" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/Makefile&quot;  VERBOSE=1 commandlineDecimater"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commandlineDecimater/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/commandlineDecimater" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/Makefile&quot;  VERBOSE=1 commandlineDecimater/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Decimating/commandlineDecimater/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Smoothing">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Smoothing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Makefile&quot;  VERBOSE=1 Smoothing"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Smoothing/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Smoothing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Makefile&quot;  VERBOSE=1 Smoothing/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Smoothing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commandlineSubdivider">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/commandlineSubdivider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/Makefile&quot;  VERBOSE=1 commandlineSubdivider"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commandlineSubdivider/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/commandlineSubdivider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/Makefile&quot;  VERBOSE=1 commandlineSubdivider/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commandlineAdaptiveSubdivider">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/commandlineAdaptiveSubdivider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Makefile&quot;  VERBOSE=1 commandlineAdaptiveSubdivider"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commandlineAdaptiveSubdivider/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/commandlineAdaptiveSubdivider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Makefile&quot;  VERBOSE=1 commandlineAdaptiveSubdivider/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mconvert">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/mconvert" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/Makefile&quot;  VERBOSE=1 mconvert"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mconvert/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/mconvert" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/Makefile&quot;  VERBOSE=1 mconvert/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/mconvert/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mkbalancedpm">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/mkbalancedpm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/Makefile&quot;  VERBOSE=1 mkbalancedpm"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mkbalancedpm/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/mkbalancedpm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/Makefile&quot;  VERBOSE=1 mkbalancedpm/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Analyzer">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Analyzer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Makefile&quot;  VERBOSE=1 Analyzer"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Analyzer/fast">
+				<Option output="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Analyzer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_DARWIN"/>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/../.."/>
+					<Add directory="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/../.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Makefile&quot;  VERBOSE=1 Analyzer/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/src/OpenMesh/Apps/VDProgMesh/Analyzer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc/Makefile&quot;  VERBOSE=1 doc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc-install">
+				<Option working_dir="/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc/Makefile&quot;  VERBOSE=1 doc-install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/OneDrive/OpenMesh/cmake-build-debug/Doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Decimating/decimater.cc">
+			<Option target="commandlineDecimater"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Dualizer/dualizer.cc">
+			<Option target="Dualizer"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Smoothing/smooth.cc">
+			<Option target="Smoothing"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Subdivider/adaptive_subdivider.cc">
+			<Option target="commandlineAdaptiveSubdivider"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Subdivider/subdivider.cc">
+			<Option target="commandlineSubdivider"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/VDProgMesh/Analyzer/vdpmanalyzer.cc">
+			<Option target="Analyzer"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/mkbalancedpm.cc">
+			<Option target="mkbalancedpm"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/mconvert/mconvert.cc">
+			<Option target="mconvert"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/Config.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/EigenVectorT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/LoopSchemeMaskT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/MathDefs.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/NormalConeT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/NormalConeT_impl.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/Plane3d.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/QuadricT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/Vector11T.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/VectorT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Geometry/VectorT_inc.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/BinaryHelper.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/BinaryHelper.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/IOInstances.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/IOManager.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/IOManager.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/MeshIO.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/OFFFormat.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/OMFormat.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/OMFormat.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/OMFormatT_impl.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/Options.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/SR_binary.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/SR_binary_spec.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/SR_binary_vector_of_bool.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/SR_rbo.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/SR_store.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/SR_types.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/StoreRestore.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/exporter/BaseExporter.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/exporter/ExporterT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/importer/BaseImporter.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/importer/ImporterT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/BaseReader.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/BaseReader.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/OBJReader.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/OBJReader.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/OFFReader.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/OFFReader.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/OMReader.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/OMReader.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/PLYReader.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/PLYReader.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/STLReader.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/reader/STLReader.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/BaseWriter.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/BaseWriter.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/OBJWriter.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/OBJWriter.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/OFFWriter.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/OFFWriter.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/OMWriter.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/OMWriter.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/PLYWriter.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/PLYWriter.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/STLWriter.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/STLWriter.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/VTKWriter.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/IO/writer/VTKWriter.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/ArrayItems.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/ArrayKernel.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/ArrayKernel.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/ArrayKernelT_impl.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/AttribKernelT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/Attributes.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/BaseKernel.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/BaseKernel.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/BaseMesh.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/Casts.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/CirculatorsT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/DefaultPolyMesh.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/DefaultTriMesh.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/FinalMeshItemsT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/Handles.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/IteratorsT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/PolyConnectivity.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/PolyConnectivity.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/PolyConnectivity_inline_impl.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/PolyMeshT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/PolyMeshT_impl.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/SmartHandles.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/SmartRange.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/Status.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/Tags.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/Traits.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/TriConnectivity.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/TriConnectivity.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/TriMeshT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/TriMeshT_impl.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/gen/circulators_header.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/gen/circulators_template.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/gen/footer.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/gen/iterators_header.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Mesh/gen/iterators_template.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/System/OpenMeshDLLMacros.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/System/compiler.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/System/config.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/System/mostream.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/System/omstream.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/System/omstream.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/AutoPropertyHandleT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/BaseProperty.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/BaseProperty.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/Endian.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/Endian.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/GenProg.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/HandleToPropHandle.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/Noncopyable.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/Predicates.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/Property.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/PropertyContainer.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/PropertyCreator.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/PropertyCreator.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/PropertyManager.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/RandomNumberGenerator.cc">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/RandomNumberGenerator.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/SingletonT.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/SingletonT_impl.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/color_cast.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/typename.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/vector_cast.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/Utils/vector_traits.hh">
+			<Option target="OpenMeshCoreStatic"/>
+			<Option target="OpenMeshCore"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/BaseDecimaterT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/BaseDecimaterT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/CollapseInfoT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/DecimaterT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/DecimaterT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/McDecimaterT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/McDecimaterT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/MixedDecimaterT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/MixedDecimaterT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModAspectRatioT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModAspectRatioT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModBaseT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModEdgeLengthT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModEdgeLengthT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModHausdorffT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModHausdorffT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModIndependentSetsT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModNormalDeviationT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModNormalFlippingT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModProgMeshT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModProgMeshT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModQuadricT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModQuadricT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/ModRoundnessT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/Observer.cc">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Decimater/Observer.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Dualizer/meshDualT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Smoother/JacobiLaplaceSmootherT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Smoother/JacobiLaplaceSmootherT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Smoother/LaplaceSmootherT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Smoother/LaplaceSmootherT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Smoother/SmootherT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Smoother/SmootherT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Smoother/smooth_mesh.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Adaptive/Composite/CompositeT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Adaptive/Composite/CompositeT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Adaptive/Composite/CompositeTraits.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Adaptive/Composite/RuleInterfaceT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Adaptive/Composite/RulesT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Adaptive/Composite/RulesT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Adaptive/Composite/Traits.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/CatmullClarkT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/CatmullClarkT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/Composite/CompositeT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/Composite/CompositeT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/Composite/CompositeTraits.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/CompositeLoopT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/CompositeSqrt3T.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/LongestEdgeT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/LoopT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/MidpointT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/ModifiedButterFlyT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/Sqrt3InterpolatingSubdividerLabsikGreinerT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/Sqrt3T.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Subdivider/Uniform/SubdividerT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/Config.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/GLConstAsString.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/Gnuplot.cc">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/Gnuplot.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/HeapT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/MeshCheckerT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/MeshCheckerT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/NumLimitsT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/StripifierT.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/StripifierT_impl.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/TestingFramework.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/Timer.cc">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/Timer.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/conio.cc">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/Utils/conio.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/MeshTraits.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/StreamingDef.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/VFront.cc">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/VFront.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/VHierarchy.cc">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/VHierarchy.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/VHierarchyNode.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/VHierarchyNodeIndex.cc">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/VHierarchyNodeIndex.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/VHierarchyWindow.cc">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/VHierarchyWindow.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/ViewingParameters.cc">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/VDPM/ViewingParameters.hh">
+			<Option target="OpenMeshTools"/>
+			<Option target="OpenMeshToolsStatic"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/openmesh.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/cmake-library/VCI/MSVCMacros.cmake">
+			<Option virtualFolder="CMake Files\cmake-library\VCI\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/cmake-library/VCI/VCICommon.cmake">
+			<Option virtualFolder="CMake Files\cmake-library\VCI\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/cmake-library/VCI/VCICompiler.cmake">
+			<Option virtualFolder="CMake Files\cmake-library\VCI\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/cmake-library/VCI/VCIDoxygen.cmake">
+			<Option virtualFolder="CMake Files\cmake-library\VCI\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/cmake-library/VCI/VCIOutput.cmake">
+			<Option virtualFolder="CMake Files\cmake-library\VCI\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/cmake-library/VCI/VCIPaths.cmake">
+			<Option virtualFolder="CMake Files\cmake-library\VCI\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/cmake-library/VCI/VCIQt.cmake">
+			<Option virtualFolder="CMake Files\cmake-library\VCI\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/cmake/OpenMeshPackage.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/cmake/fixbundle.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Core\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Tools\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Dualizer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Dualizer\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Decimating/commandlineDecimater/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Decimating\commandlineDecimater\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Smoothing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Smoothing\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Subdivider\commandlineSubdivider\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/mconvert/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\mconvert\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\VDProgMesh\mkbalancedpm\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/OpenMesh/Apps/VDProgMesh/Analyzer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\VDProgMesh\Analyzer\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/src/Unittests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Unittests\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/Doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Doc\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/OneDrive/OpenMesh/Doc/doxy.config.in">
+			<Option virtualFolder="CMake Files\Doc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
