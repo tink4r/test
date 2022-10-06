@@ -4,7 +4,7 @@ if("${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}" LESS 2.6)
    message(FATAL_ERROR "CMake >= 2.6.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.6...3.20)
+cmake_policy(VERSION 2.6...3.21)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -45,29 +45,29 @@ unset(_expectedTargets)
 add_library(OpenMeshCore SHARED IMPORTED)
 
 set_target_properties(OpenMeshCore PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/yishin/Documents/Libigl_Project_Template/ext/OpenMesh/src/OpenMesh/Core/../.."
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/../.."
 )
 
 # Create imported target OpenMeshTools
 add_library(OpenMeshTools SHARED IMPORTED)
 
 set_target_properties(OpenMeshTools PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/yishin/Documents/Libigl_Project_Template/ext/OpenMesh/src/OpenMesh/Tools/../.."
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Tools/../.."
   INTERFACE_LINK_LIBRARIES "OpenMeshCore"
 )
 
 # Import target "OpenMeshCore" for configuration "Release"
 set_property(TARGET OpenMeshCore APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(OpenMeshCore PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/yishin/Documents/Libigl_Project_Template/build/Build/lib/libOpenMeshCore.so.9.1"
-  IMPORTED_SONAME_RELEASE "libOpenMeshCore.so.9.1"
+  IMPORTED_LOCATION_RELEASE "/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/src/OpenMesh/Core/libOpenMeshCore.9.1.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libOpenMeshCore.9.1.dylib"
   )
 
 # Import target "OpenMeshTools" for configuration "Release"
 set_property(TARGET OpenMeshTools APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(OpenMeshTools PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/yishin/Documents/Libigl_Project_Template/build/Build/lib/libOpenMeshTools.so.9.1"
-  IMPORTED_SONAME_RELEASE "libOpenMeshTools.so.9.1"
+  IMPORTED_LOCATION_RELEASE "/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/src/OpenMesh/Tools/libOpenMeshTools.9.1.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libOpenMeshTools.9.1.dylib"
   )
 
 # This file does not depend on other imported targets which have

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yishin/Documents/Libigl_Project_Template/ext/libigl/external/stb/igl_stb_image.cpp" "ext/stb_image/CMakeFiles/igl_stb_image.dir/igl_stb_image.cpp.o" "gcc" "ext/stb_image/CMakeFiles/igl_stb_image.dir/igl_stb_image.cpp.o.d"
+  "/Users/sutd-cgl/Documents/GitHub/test/ext/libigl/external/stb/igl_stb_image.cpp" "ext/stb_image/CMakeFiles/igl_stb_image.dir/igl_stb_image.cpp.o" "gcc" "ext/stb_image/CMakeFiles/igl_stb_image.dir/igl_stb_image.cpp.o.d"
   )
 
 # Targets to which this target links.

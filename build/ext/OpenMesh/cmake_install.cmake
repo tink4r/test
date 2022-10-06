@@ -1,4 +1,4 @@
-# Install script for directory: /home/yishin/Documents/Libigl_Project_Template/ext/OpenMesh
+# Install script for directory: /Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,11 +27,6 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -39,18 +34,18 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/libdata/pkgconfig" TYPE FILE FILES "/home/yishin/Documents/Libigl_Project_Template/build/ext/OpenMesh/openmesh.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/libdata/pkgconfig" TYPE FILE FILES "/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/openmesh.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/OpenMesh/cmake/OpenMeshConfig.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/OpenMesh/cmake/OpenMeshConfig.cmake"
-         "/home/yishin/Documents/Libigl_Project_Template/build/ext/OpenMesh/CMakeFiles/Export/share/OpenMesh/cmake/OpenMeshConfig.cmake")
+         "/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/CMakeFiles/Export/share/OpenMesh/cmake/OpenMeshConfig.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/OpenMesh/cmake/OpenMeshConfig-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -59,18 +54,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenMesh/cmake" TYPE FILE FILES "/home/yishin/Documents/Libigl_Project_Template/build/ext/OpenMesh/CMakeFiles/Export/share/OpenMesh/cmake/OpenMeshConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenMesh/cmake" TYPE FILE FILES "/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/CMakeFiles/Export/share/OpenMesh/cmake/OpenMeshConfig.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenMesh/cmake" TYPE FILE FILES "/home/yishin/Documents/Libigl_Project_Template/build/ext/OpenMesh/CMakeFiles/Export/share/OpenMesh/cmake/OpenMeshConfig-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenMesh/cmake" TYPE FILE FILES "/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/CMakeFiles/Export/share/OpenMesh/cmake/OpenMeshConfig-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yishin/Documents/Libigl_Project_Template/build/ext/OpenMesh/src/OpenMesh/Core/cmake_install.cmake")
-  include("/home/yishin/Documents/Libigl_Project_Template/build/ext/OpenMesh/src/OpenMesh/Tools/cmake_install.cmake")
-  include("/home/yishin/Documents/Libigl_Project_Template/build/ext/OpenMesh/src/OpenMesh/Apps/cmake_install.cmake")
-  include("/home/yishin/Documents/Libigl_Project_Template/build/ext/OpenMesh/Doc/cmake_install.cmake")
+  include("/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/src/OpenMesh/Core/cmake_install.cmake")
+  include("/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/src/OpenMesh/Tools/cmake_install.cmake")
+  include("/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/src/OpenMesh/Apps/cmake_install.cmake")
+  include("/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/Doc/cmake_install.cmake")
 
 endif()
 

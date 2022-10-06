@@ -1,4 +1,4 @@
-# Install script for directory: /home/yishin/Documents/Libigl_Project_Template/ext/OpenMesh/src/OpenMesh/Core
+# Install script for directory: /Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,11 +27,6 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -39,25 +34,181 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/yishin/Documents/Libigl_Project_Template/build/Build/lib/libOpenMeshCore.so.9.1")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.so.9.1" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.so.9.1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/Geometry" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/Config.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/EigenVectorT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/LoopSchemeMaskT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/MathDefs.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/NormalConeT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/NormalConeT_impl.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/Plane3d.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/QuadricT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/Vector11T.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/VectorT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Geometry/VectorT_inc.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/IO" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/BinaryHelper.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/IOInstances.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/IOManager.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/MeshIO.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/OFFFormat.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/OMFormat.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/OMFormatT_impl.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/Options.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/SR_binary.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/SR_binary_spec.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/SR_binary_vector_of_bool.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/SR_rbo.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/SR_store.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/SR_types.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/StoreRestore.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/IO/importer" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/importer/BaseImporter.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/importer/ImporterT.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/IO/exporter" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/exporter/BaseExporter.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/exporter/ExporterT.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/IO/reader" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/reader/BaseReader.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/reader/OBJReader.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/reader/OFFReader.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/reader/OMReader.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/reader/PLYReader.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/reader/STLReader.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/IO/writer" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/writer/BaseWriter.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/writer/OBJWriter.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/writer/OFFWriter.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/writer/OMWriter.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/writer/PLYWriter.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/writer/STLWriter.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/IO/writer/VTKWriter.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/Mesh" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/ArrayItems.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/ArrayKernel.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/ArrayKernelT_impl.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/AttribKernelT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/Attributes.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/BaseKernel.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/BaseMesh.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/Casts.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/CirculatorsT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/DefaultPolyMesh.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/DefaultTriMesh.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/FinalMeshItemsT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/Handles.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/IteratorsT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/PolyConnectivity.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/PolyConnectivity_inline_impl.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/PolyMeshT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/PolyMeshT_impl.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/SmartHandles.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/SmartRange.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/Status.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/Tags.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/Traits.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/TriConnectivity.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/TriMeshT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/TriMeshT_impl.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/Mesh/gen" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/gen/circulators_header.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/gen/circulators_template.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/gen/footer.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/gen/iterators_header.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Mesh/gen/iterators_template.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/System" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/System/OpenMeshDLLMacros.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/System/compiler.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/System/config.h"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/System/config.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/System/mostream.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/System/omstream.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenMesh/Core/Utils" TYPE FILE FILES
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/AutoPropertyHandleT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/BaseProperty.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/Endian.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/GenProg.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/HandleToPropHandle.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/Noncopyable.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/Predicates.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/Property.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/PropertyContainer.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/PropertyCreator.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/PropertyManager.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/RandomNumberGenerator.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/SingletonT.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/SingletonT_impl.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/color_cast.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/typename.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/vector_cast.hh"
+    "/Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh/src/OpenMesh/Core/Utils/vector_traits.hh"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/src/OpenMesh/Core/libOpenMeshCore.9.1.dylib")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.9.1.dylib" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.9.1.dylib")
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -add_rpath "@executable_path/../lib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.9.1.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.so.9.1")
+      execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.9.1.dylib")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/yishin/Documents/Libigl_Project_Template/build/Build/lib/libOpenMeshCore.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh/src/OpenMesh/Core/libOpenMeshCore.dylib")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.dylib" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.dylib")
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -add_rpath "@executable_path/../lib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.so")
+      execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libOpenMeshCore.dylib")
     endif()
   endif()
 endif()

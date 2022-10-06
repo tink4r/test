@@ -1,0 +1,5 @@
+test/build/
+test/bin/
+test/cmake-build-debug/
+test/model/
+test/src/

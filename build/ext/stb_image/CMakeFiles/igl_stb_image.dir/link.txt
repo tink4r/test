@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC  -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libigl_stb_image.so -o libigl_stb_image.so CMakeFiles/igl_stb_image.dir/igl_stb_image.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -fPIC -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -dynamiclib -Wl,-headerpad_max_install_names -o libigl_stb_image.dylib -install_name @rpath/libigl_stb_image.dylib CMakeFiles/igl_stb_image.dir/igl_stb_image.cpp.o 

@@ -4,7 +4,7 @@ if("${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}" LESS 2.6)
    message(FATAL_ERROR "CMake >= 2.6.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.6...3.20)
+cmake_policy(VERSION 2.6...3.21)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -16,7 +16,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_targetsDefined)
 set(_targetsNotDefined)
 set(_expectedTargets)
-foreach(_expectedTarget pugixml::pugixml pugixml::shared)
+foreach(_expectedTarget pugixml::pugixml pugixml::static)
   list(APPEND _expectedTargets ${_expectedTarget})
   if(NOT TARGET ${_expectedTarget})
     list(APPEND _targetsNotDefined ${_expectedTarget})
@@ -55,13 +55,13 @@ add_library(pugixml::pugixml INTERFACE IMPORTED)
 
 set_target_properties(pugixml::pugixml PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "pugixml::shared"
+  INTERFACE_LINK_LIBRARIES "pugixml::static"
 )
 
-# Create imported target pugixml::shared
-add_library(pugixml::shared SHARED IMPORTED)
+# Create imported target pugixml::static
+add_library(pugixml::static STATIC IMPORTED)
 
-set_target_properties(pugixml::shared PROPERTIES
+set_target_properties(pugixml::static PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
 )
 

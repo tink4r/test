@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yishin/Documents/Libigl_Project_Template/ext/pugixml/src/pugixml.cpp" "ext/pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o" "gcc" "ext/pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o.d"
+  "/Users/sutd-cgl/Documents/GitHub/test/ext/pugixml/src/pugixml.cpp" "ext/pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o" "gcc" "ext/pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -4,30 +4,31 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/yishin/Documents/Libigl_Project_Template/ext/pugixml
-BuildDirectory: /home/yishin/Documents/Libigl_Project_Template/build/ext/pugixml
+SourceDirectory: /Users/sutd-cgl/Documents/GitHub/test/ext/pugixml
+BuildDirectory: /Users/sutd-cgl/Documents/GitHub/test/build/ext/pugixml
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: yishin-TM1701
+Site: sutd-cgls-iMac.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-g++
+BuildName: Darwin-c++
 
 # Subprojects
 LabelsForSubprojects: 
 
 # Submission information
 SubmitURL: http://
+SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/yishin/Documents/Libigl_Project_Template/ext/pugixml"
-MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/sutd-cgl/Documents/GitHub/test/ext/pugixml"
+MakeCommand: /Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -62,8 +63,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: /usr/bin/g++
-CompilerVersion: 11.2.0
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+CompilerVersion: 13.0.0.13000027
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

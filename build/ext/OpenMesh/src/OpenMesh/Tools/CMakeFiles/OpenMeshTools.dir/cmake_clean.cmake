@@ -1,7 +1,4 @@
 file(REMOVE_RECURSE
-  "../../../../../Build/lib/libOpenMeshTools.pdb"
-  "../../../../../Build/lib/libOpenMeshTools.so"
-  "../../../../../Build/lib/libOpenMeshTools.so.9.1"
   "CMakeFiles/OpenMeshTools.dir/Decimater/Observer.cc.o"
   "CMakeFiles/OpenMeshTools.dir/Decimater/Observer.cc.o.d"
   "CMakeFiles/OpenMeshTools.dir/Utils/Gnuplot.cc.o"
@@ -20,6 +17,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenMeshTools.dir/VDPM/VHierarchyWindow.cc.o.d"
   "CMakeFiles/OpenMeshTools.dir/VDPM/ViewingParameters.cc.o"
   "CMakeFiles/OpenMeshTools.dir/VDPM/ViewingParameters.cc.o.d"
+  "libOpenMeshTools.9.1.dylib"
+  "libOpenMeshTools.dylib"
+  "libOpenMeshTools.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

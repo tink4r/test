@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yishin/Documents/Libigl_Project_Template/ext/libigl/external/glad/src/glad.c" "ext/glad/CMakeFiles/glad.dir/src/glad.c.o" "gcc" "ext/glad/CMakeFiles/glad.dir/src/glad.c.o.d"
+  "/Users/sutd-cgl/Documents/GitHub/test/ext/libigl/external/glad/src/glad.c" "ext/glad/CMakeFiles/glad.dir/src/glad.c.o" "gcc" "ext/glad/CMakeFiles/glad.dir/src/glad.c.o.d"
   )
 
 # Targets to which this target links.

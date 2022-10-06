@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/yishin/Documents/Libigl_Project_Template/ext
-# Build directory: /home/yishin/Documents/Libigl_Project_Template/build/ext
+# Source directory: /Users/sutd-cgl/Documents/GitHub/test/ext
+# Build directory: /Users/sutd-cgl/Documents/GitHub/test/build/ext
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

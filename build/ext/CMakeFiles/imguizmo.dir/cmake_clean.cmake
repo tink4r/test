@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/imguizmo.dir/libigl/external/imguizmo/ImGuizmo.cpp.o"
   "CMakeFiles/imguizmo.dir/libigl/external/imguizmo/ImGuizmo.cpp.o.d"
+  "libimguizmo.dylib"
   "libimguizmo.pdb"
-  "libimguizmo.so"
 )
 
 # Per-language clean rules from dependency scanning.

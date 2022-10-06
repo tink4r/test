@@ -4,7 +4,7 @@ if("${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}" LESS 2.6)
    message(FATAL_ERROR "CMake >= 2.6.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.6...3.20)
+cmake_policy(VERSION 2.6...3.21)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -20,7 +20,7 @@ endif()
 set(_targetsDefined)
 set(_targetsNotDefined)
 set(_expectedTargets)
-foreach(_expectedTarget pugixml::pugixml pugixml::shared)
+foreach(_expectedTarget pugixml::pugixml pugixml::static)
   list(APPEND _expectedTargets ${_expectedTarget})
   if(NOT TARGET ${_expectedTarget})
     list(APPEND _targetsNotDefined ${_expectedTarget})
@@ -49,21 +49,21 @@ unset(_expectedTargets)
 add_library(pugixml::pugixml INTERFACE IMPORTED)
 
 set_target_properties(pugixml::pugixml PROPERTIES
-  INTERFACE_LINK_LIBRARIES "pugixml::shared"
+  INTERFACE_LINK_LIBRARIES "pugixml::static"
 )
 
-# Create imported target pugixml::shared
-add_library(pugixml::shared SHARED IMPORTED)
+# Create imported target pugixml::static
+add_library(pugixml::static STATIC IMPORTED)
 
-set_target_properties(pugixml::shared PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/yishin/Documents/Libigl_Project_Template/ext/pugixml/src"
+set_target_properties(pugixml::static PROPERTIES
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/sutd-cgl/Documents/GitHub/test/ext/pugixml/src"
 )
 
-# Import target "pugixml::shared" for configuration "Release"
-set_property(TARGET pugixml::shared APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(pugixml::shared PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/yishin/Documents/Libigl_Project_Template/build/ext/pugixml/libpugixml.so.1.11"
-  IMPORTED_SONAME_RELEASE "libpugixml.so.1"
+# Import target "pugixml::static" for configuration "Release"
+set_property(TARGET pugixml::static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(pugixml::static PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
+  IMPORTED_LOCATION_RELEASE "/Users/sutd-cgl/Documents/GitHub/test/build/ext/pugixml/libpugixml.a"
   )
 
 # This file does not depend on other imported targets which have

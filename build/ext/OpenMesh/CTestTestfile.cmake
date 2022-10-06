@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/yishin/Documents/Libigl_Project_Template/ext/OpenMesh
-# Build directory: /home/yishin/Documents/Libigl_Project_Template/build/ext/OpenMesh
+# Source directory: /Users/sutd-cgl/Documents/GitHub/test/ext/OpenMesh
+# Build directory: /Users/sutd-cgl/Documents/GitHub/test/build/ext/OpenMesh
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

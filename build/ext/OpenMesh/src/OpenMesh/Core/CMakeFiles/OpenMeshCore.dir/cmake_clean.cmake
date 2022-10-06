@@ -1,7 +1,4 @@
 file(REMOVE_RECURSE
-  "../../../../../Build/lib/libOpenMeshCore.pdb"
-  "../../../../../Build/lib/libOpenMeshCore.so"
-  "../../../../../Build/lib/libOpenMeshCore.so.9.1"
   "CMakeFiles/OpenMeshCore.dir/IO/BinaryHelper.cc.o"
   "CMakeFiles/OpenMeshCore.dir/IO/BinaryHelper.cc.o.d"
   "CMakeFiles/OpenMeshCore.dir/IO/IOManager.cc.o"
@@ -52,6 +49,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenMeshCore.dir/Utils/PropertyCreator.cc.o.d"
   "CMakeFiles/OpenMeshCore.dir/Utils/RandomNumberGenerator.cc.o"
   "CMakeFiles/OpenMeshCore.dir/Utils/RandomNumberGenerator.cc.o.d"
+  "libOpenMeshCore.9.1.dylib"
+  "libOpenMeshCore.dylib"
+  "libOpenMeshCore.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
