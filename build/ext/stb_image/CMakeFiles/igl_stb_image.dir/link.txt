@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libigl_stb_image.so -o libigl_stb_image.so CMakeFiles/igl_stb_image.dir/igl_stb_image.cpp.o 

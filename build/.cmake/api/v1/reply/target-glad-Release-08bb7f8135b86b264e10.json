@@ -1,0 +1,181 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ext/glad/libglad.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories",
+			"find_package",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"ext/libigl/external/glad/CMakeLists.txt",
+			"CMakeLists.txt",
+			"ext/cmake/FindOpenMesh.cmake",
+			"ext/CMakeLists.txt",
+			"ext/cmake/FindPugiXML.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 5
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 15,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 9,
+				"parent" : 5
+			},
+			{
+				"file" : 4,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 15,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -O3 -DNDEBUG -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "glad_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/pugixml"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/OpenMesh/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/pugixml/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/libigl/external/glad/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "glad::@395c76cf0743a1c2a345",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "glad",
+	"nameOnDisk" : "libglad.so",
+	"paths" : 
+	{
+		"build" : "ext/glad",
+		"source" : "ext/libigl/external/glad"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ext/libigl/external/glad/src/glad.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

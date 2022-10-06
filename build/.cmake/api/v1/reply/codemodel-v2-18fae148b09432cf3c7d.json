@@ -1,0 +1,676 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						20
+					]
+				},
+				{
+					"build" : "ext",
+					"childIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext-Release-fa61a31e13d0f952d633.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ext",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "ext/OpenMesh",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.OpenMesh-Release-c5b75453d6d39740c0a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ext/OpenMesh"
+				},
+				{
+					"build" : "ext/OpenMesh/src/OpenMesh/Core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.OpenMesh.src.OpenMesh.Core-Release-a140e8d35162394eceb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "ext/OpenMesh/src/OpenMesh/Core",
+					"targetIndexes" : 
+					[
+						31,
+						32
+					]
+				},
+				{
+					"build" : "ext/OpenMesh/src/OpenMesh/Tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.OpenMesh.src.OpenMesh.Tools-Release-9446b5c4abe75b0977c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "ext/OpenMesh/src/OpenMesh/Tools",
+					"targetIndexes" : 
+					[
+						33,
+						34
+					]
+				},
+				{
+					"build" : "ext/OpenMesh/src/OpenMesh/Apps",
+					"jsonFile" : "directory-ext.OpenMesh.src.OpenMesh.Apps-Release-ece3536c40e921e6127a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "ext/OpenMesh/src/OpenMesh/Apps"
+				},
+				{
+					"build" : "ext/OpenMesh/Doc",
+					"jsonFile" : "directory-ext.OpenMesh.Doc-Release-547b66986bede8320686.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "ext/OpenMesh/Doc"
+				},
+				{
+					"build" : "ext/pugixml",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.pugixml-Release-0987d72581bab12fafe6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "ext/pugixml",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						40
+					]
+				},
+				{
+					"build" : "ext/glad",
+					"jsonFile" : "directory-ext.glad-Release-d6d3884bb35bff9b90f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "ext/libigl/external/glad",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "ext/glfw",
+					"childIndexes" : 
+					[
+						10
+					],
+					"jsonFile" : "directory-ext.glfw-Release-c4fb7155fd3f102ec8b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "ext/libigl/external/glfw"
+				},
+				{
+					"build" : "ext/glfw/src",
+					"jsonFile" : "directory-ext.glfw.src-Release-b877f4d40773aa2b8ce6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 4,
+					"source" : "ext/libigl/external/glfw/src",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "ext/imgui",
+					"jsonFile" : "directory-ext.imgui-Release-aeaae76713846edeb87c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ext/libigl/external/libigl-imgui",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "ext/stb_image",
+					"jsonFile" : "directory-ext.stb_image-Release-6559a763e9620eb1c0ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "ext/libigl/external/stb",
+					"targetIndexes" : 
+					[
+						37
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						11
+					],
+					"name" : "Libigl_Project_Template",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						20,
+						38,
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "OpenMesh",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31,
+						32,
+						33,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "pugixml",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9,
+						10
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "igl_stb_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						37
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3DCorelib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3DCorelib-Release-c0a467f1538fc1fbd282.json",
+					"name" : "3DCorelib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3DRenderlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3DRenderlib-Release-9a96de7b9e3d2e20cdcb.json",
+					"name" : "3DRenderlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Continuous::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-Continuous-Release-871fc2b599ef86310ea6.json",
+					"name" : "Continuous",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ContinuousBuild::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ContinuousBuild-Release-d3eaf8a3b75e57bc92de.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ContinuousConfigure::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ContinuousConfigure-Release-4a2c317ae51aeb0b06d9.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ContinuousCoverage::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ContinuousCoverage-Release-eae26ddc79a5ebde5b43.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ContinuousMemCheck::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ContinuousMemCheck-Release-7b92da11520dc04d7660.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ContinuousStart::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ContinuousStart-Release-4cda086c155b0e8128ff.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ContinuousSubmit::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ContinuousSubmit-Release-bde4dd3653a2be55af46.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ContinuousTest::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ContinuousTest-Release-1201d51f7b2307bf94fe.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ContinuousUpdate::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ContinuousUpdate-Release-03ee292ecd8c1245b674.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Experimental::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-Experimental-Release-1aa0a6eb795f9261b466.json",
+					"name" : "Experimental",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExperimentalBuild::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ExperimentalBuild-Release-740002b456186e8d7d4e.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExperimentalConfigure::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ExperimentalConfigure-Release-bea43b88da429914cb38.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExperimentalCoverage::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ExperimentalCoverage-Release-d5e90d43a32e0ed3204a.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExperimentalMemCheck::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ExperimentalMemCheck-Release-79aef89f0ef1cb0bc8b8.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExperimentalStart::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ExperimentalStart-Release-c3b6060c2484ff14ed05.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExperimentalSubmit::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ExperimentalSubmit-Release-9a7b2890e7b07ab8ece9.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExperimentalTest::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ExperimentalTest-Release-a0338190d526662aef50.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExperimentalUpdate::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-ExperimentalUpdate-Release-a9d234e447f7feb0f4d9.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Libigl_Project_Template_bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Libigl_Project_Template_bin-Release-43b90fe36bf8d00a91b3.json",
+					"name" : "Libigl_Project_Template_bin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Nightly::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-Nightly-Release-7b92011954b7f83d280f.json",
+					"name" : "Nightly",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NightlyBuild::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-NightlyBuild-Release-8f047be539637b5f098e.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NightlyConfigure::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-NightlyConfigure-Release-82c4ab43e9e8b1cb30d7.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NightlyCoverage::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-NightlyCoverage-Release-d161f10ac6dc0d00ddca.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NightlyMemCheck::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-NightlyMemCheck-Release-c8b1cbd0e11ad1b47650.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NightlyMemoryCheck::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-NightlyMemoryCheck-Release-8f8a1bf7dac9f54023fb.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NightlyStart::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-NightlyStart-Release-31f6f615fba0f1c16f19.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NightlySubmit::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-NightlySubmit-Release-bf16206d7e7362f7583a.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NightlyTest::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-NightlyTest-Release-8b5fdfefd75951fd9020.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NightlyUpdate::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-NightlyUpdate-Release-a895ae54e54a75d43426.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "OpenMeshCore::@492d0f5311832d7fbb31",
+					"jsonFile" : "target-OpenMeshCore-Release-b0ef016f7628ba409684.json",
+					"name" : "OpenMeshCore",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "OpenMeshCoreStatic::@492d0f5311832d7fbb31",
+					"jsonFile" : "target-OpenMeshCoreStatic-Release-b14a55b55395e06b50b5.json",
+					"name" : "OpenMeshCoreStatic",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "OpenMeshTools::@d1b75ca3bb518c1d726b",
+					"jsonFile" : "target-OpenMeshTools-Release-3b94b237501bf33f886e.json",
+					"name" : "OpenMeshTools",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "OpenMeshToolsStatic::@d1b75ca3bb518c1d726b",
+					"jsonFile" : "target-OpenMeshToolsStatic-Release-aeab79dc4fc9c644fbb4.json",
+					"name" : "OpenMeshToolsStatic",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "glad::@395c76cf0743a1c2a345",
+					"jsonFile" : "target-glad-Release-08bb7f8135b86b264e10.json",
+					"name" : "glad",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "glfw::@f6f7721c76705297a9b5",
+					"jsonFile" : "target-glfw-Release-db79d260a57a242785b3.json",
+					"name" : "glfw",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "igl_stb_image::@b7cc8274e72a6cf18350",
+					"jsonFile" : "target-igl_stb_image-Release-43f72b3f19b6e75c209e.json",
+					"name" : "igl_stb_image",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "imgui::@b74f06831d21e0dfde8d",
+					"jsonFile" : "target-imgui-Release-eaa8591d99afd06ce271.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imguizmo::@a9f99adfd9f636cea434",
+					"jsonFile" : "target-imguizmo-Release-96240a4742cdd60c1c24.json",
+					"name" : "imguizmo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pugixml-shared::@bfab0717ff4d40fb15cf",
+					"jsonFile" : "target-pugixml-shared-Release-6c229c27c17bc271020e.json",
+					"name" : "pugixml-shared",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yishin/Documents/Libigl_Project_Template/build",
+		"source" : "/home/yishin/Documents/Libigl_Project_Template"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

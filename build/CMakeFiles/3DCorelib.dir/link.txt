@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib3DCorelib.a CMakeFiles/3DCorelib.dir/src/Core/Surface.cpp.o CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o
+/usr/bin/ranlib lib3DCorelib.a

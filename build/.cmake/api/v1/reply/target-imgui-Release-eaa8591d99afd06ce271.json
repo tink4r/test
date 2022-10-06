@@ -1,0 +1,329 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ext/imgui/libimgui.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"include_directories",
+			"find_package",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"ext/libigl/external/libigl-imgui/CMakeLists.txt",
+			"CMakeLists.txt",
+			"ext/cmake/FindOpenMesh.cmake",
+			"ext/CMakeLists.txt",
+			"ext/cmake/FindPugiXML.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 15,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 9,
+				"parent" : 6
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 15,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -O3 -DNDEBUG -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "IMGUI_IMPL_OPENGL_LOADER_GLAD"
+				},
+				{
+					"define" : "imgui_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/pugixml"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/OpenMesh/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/pugixml/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/libigl/external/libigl-imgui/../imgui"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/libigl/external/libigl-imgui/."
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/libigl/external/libigl-imgui/.."
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/libigl/external/libigl-imgui/../imgui/examples"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/libigl/external/glad/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/yishin/Documents/Libigl_Project_Template/ext/libigl/external/glfw/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				5,
+				9,
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glad::@395c76cf0743a1c2a345"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@f6f7721c76705297a9b5"
+		}
+	],
+	"id" : "imgui::@b74f06831d21e0dfde8d",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/yishin/Documents/Libigl_Project_Template/build/ext/glad:/home/yishin/Documents/Libigl_Project_Template/build/ext/glfw/src",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../glad/libglad.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../glfw/src/libglfw.so.3.4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "imgui",
+	"nameOnDisk" : "libimgui.so",
+	"paths" : 
+	{
+		"build" : "ext/imgui",
+		"source" : "ext/libigl/external/libigl-imgui"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				5,
+				9,
+				10
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				4,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ext/libigl/external/imgui/imgui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ext/libigl/external/imgui/imgui.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ext/libigl/external/imgui/imgui_demo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ext/libigl/external/imgui/imgui_draw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ext/libigl/external/imgui/imgui_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ext/libigl/external/imgui/imgui_widgets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ext/libigl/external/imgui/imstb_rectpack.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ext/libigl/external/imgui/imstb_textedit.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ext/libigl/external/imgui/imstb_truetype.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ext/libigl/external/imgui/examples/imgui_impl_glfw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ext/libigl/external/imgui/examples/imgui_impl_opengl3.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
